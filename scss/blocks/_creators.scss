@@ -1,0 +1,115 @@
+.creators__section{
+  padding: 80px;
+}
+
+.creators__content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.creators__title{
+  margin-bottom: 10px;
+  font-family: Work Sans;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 45.6px;
+  text-align: left;
+  color: var(--white-color);
+}
+
+.creators__text{
+  margin-bottom: 60px;
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.2px;
+  text-align: left;
+  color: var(--white-color);
+}
+
+.creators__btn{
+  width: 247px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border-radius: 20px;
+  border: 2px solid var(--purple-color);
+  color: var(--white-color);
+  background-color: var(--black-color);
+  cursor: pointer;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+}
+
+.creators__menu{
+  display: flex;
+  gap: 30px;
+}
+
+.creators__menu-title{
+  margin-bottom: 5px;
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30.8px;
+  text-align: center;
+  color: var(--white-color);
+}
+
+.creators__list{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.creators__item{
+  padding: 20px;
+  border-radius: 20px;
+  background-color: var(--gray-color);
+}
+
+.creators__menu{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+
+.creators__menu-img{
+  margin-bottom: 20px;
+  margin-left: 27px;
+}
+
+.creators__menu-text{
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: center;
+  color: var(--creatorsmenu-color);
+}
+
+@media only screen and(max-width:767px){
+  .creators__title{
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39.2px;
+    color: var(--white-color);
+  }
+
+  .creators__text{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: var(--white-color);
+  }
+
+  
+}

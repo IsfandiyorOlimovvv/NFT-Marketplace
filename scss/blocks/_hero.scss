@@ -1,0 +1,107 @@
+.hero__section{
+  padding: 80px;
+}
+
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.hero__title{
+  max-width: 459px;
+  margin-bottom: 20px;
+  font-family: Work Sans;
+  font-size: 67px;
+  font-weight: 600;
+  line-height: 73.7px;
+  color: var(--white-color);
+}
+
+.hero__text{
+  max-width: 510px;
+  margin-bottom: 30px;
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.2px;
+  color: var(--white-color);
+}
+
+.hero__btn{
+  width: 224px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  color: var(--white-color);
+  background-color: var(--purple-color);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: center;
+}
+
+.hero__card{
+  background-color: var(--gray-color);
+  border-radius: 20px;
+}
+
+.hero__img{
+  overlay: none;
+}
+
+.card__title{
+  margin-bottom: 10px;
+  padding: 20px;
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30.8px;
+  color: #FFFFFF;
+}
+
+.card__user{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 20px;
+}
+
+.card__text{
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: var(--white-color);
+}
+
+@media only screen and (max-width: 767px){
+  .hero__title{
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 45.6px;
+    color: var(--white-color);
+  }
+
+  .hero__text{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+  }
+
+  .hero__img{
+    width: 330px;
+    height: 330px;
+    overlay: none;
+  }
+}

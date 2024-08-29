@@ -1,0 +1,36 @@
+.browse__section{
+  padding: 80px;
+}
+
+.browse__title{
+  margin-bottom: 60px;
+  font-family: Work Sans;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 45.6px;
+  text-align: left;
+  color: var(--white-color);
+}
+
+.browse__list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 20px;
+}
+
+.browse__item{
+  border-radius: 20px;
+  background-color: var(--gray-color);
+}
+
+.browse__content-title{
+  padding: 20px 30px 25px 20px;
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30.8px;
+  text-align: left;
+  color: var(--white-color);
+}

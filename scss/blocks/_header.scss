@@ -1,0 +1,70 @@
+.site__header{
+  padding: 34px;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__list{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar__link{
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  color: var(--white-color);
+
+  &:hover{
+    color: var(--purple-color);
+  }
+}
+
+.header__btn-section{
+  display: flex;
+  align-items: center;
+}
+
+.header__btn{
+  width: 152px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  color: var(--white-color);
+  background-color: var(--purple-color);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: center;
+}
+
+.hamburger__menu{
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  font-size: 26px;
+  border: none;
+  display: none;
+}
+
+@media only screen and (max-width: 1023px){
+  .navbar__list{
+    display: none;
+  }
+
+  .hamburger__menu{
+    display: block;
+  }
+}
