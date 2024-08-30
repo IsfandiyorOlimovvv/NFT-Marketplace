@@ -1,5 +1,5 @@
 .site__header{
-  padding: 34px;
+  padding: 34px 0;
 }
 
 .header{
@@ -15,7 +15,6 @@
 }
 
 .navbar__link{
-  font-family: Work Sans;
   font-size: 16px;
   font-weight: 600;
   line-height: 22.4px;
@@ -43,11 +42,9 @@
   cursor: pointer;
   color: var(--white-color);
   background-color: var(--purple-color);
-  font-family: Work Sans;
   font-size: 16px;
   font-weight: 600;
   line-height: 22.4px;
-  text-align: center;
 }
 
 .hamburger__menu{
@@ -59,12 +56,21 @@
   display: none;
 }
 
-@media only screen and (max-width: 1023px){
+@media only screen and (max-width: 1080px){
   .navbar__list{
     display: none;
   }
 
   .hamburger__menu{
     display: block;
+  }
+}
+
+@media only screen and (max-width: 920px){
+  .header{
+    display: flex;
+    margin: 0 auto;
+    width: 375px;
+    height: 54px;
   }
 }

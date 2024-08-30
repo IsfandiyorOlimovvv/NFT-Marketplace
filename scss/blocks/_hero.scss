@@ -1,18 +1,17 @@
 .hero__section{
-  padding: 80px;
+  padding: 80px 0;
 }
 
 .hero{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  overflow: hidden;
+  gap: 30px;
 }
 
 .hero__title{
   max-width: 459px;
   margin-bottom: 20px;
-  font-family: Work Sans;
   font-size: 67px;
   font-weight: 600;
   line-height: 73.7px;
@@ -22,7 +21,6 @@
 .hero__text{
   max-width: 510px;
   margin-bottom: 30px;
-  font-family: Work Sans;
   font-size: 22px;
   font-weight: 400;
   line-height: 35.2px;
@@ -41,11 +39,9 @@
   cursor: pointer;
   color: var(--white-color);
   background-color: var(--purple-color);
-  font-family: Work Sans;
   font-size: 16px;
   font-weight: 600;
   line-height: 22.4px;
-  text-align: center;
 }
 
 .hero__card{
@@ -60,11 +56,10 @@
 .card__title{
   margin-bottom: 10px;
   padding: 20px;
-  font-family: Work Sans;
   font-size: 22px;
   font-weight: 600;
   line-height: 30.8px;
-  color: #FFFFFF;
+  color: var(--white-color);
 }
 
 .card__user{
@@ -75,33 +70,51 @@
 }
 
 .card__text{
-  font-family: Work Sans;
   font-size: 16px;
   font-weight: 400;
   line-height: 22.4px;
   color: var(--white-color);
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 1080px){
   .hero__title{
-    font-family: Work Sans;
     font-size: 38px;
     font-weight: 600;
     line-height: 45.6px;
-    color: var(--white-color);
   }
 
   .hero__text{
-    font-family: Work Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 22.4px;
-    text-align: left;
   }
 
   .hero__img{
-    width: 330px;
-    height: 330px;
+    max-width: 330px;
     overlay: none;
+  }
+}
+
+@media only screen and (max-width:920px){
+  .hero{
+    flex-direction: column-reverse;
+  }
+
+  .hero__btn{
+    display: flex;
+    margin: 0 auto;
+    width: 315px;
+  }
+
+  .hero__title{
+    max-width: 315px;
+    font-size: 28px;
+    line-height: 39px;
+  }
+
+  .hero__text{
+    max-width: 315px;
+    font-size: 16px;
+    line-height: 22px;
   }
 }
